@@ -54,6 +54,30 @@ padding: 5px;
 text-transform: uppercase;
 }
 
+.Reproduzir música {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Reproduzir música:active {
+  animation: clicado 0.2s ease;
+}
+
+@keyframes clicado {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+
 h1 {
 color: #fff;
 }
