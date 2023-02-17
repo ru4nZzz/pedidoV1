@@ -22,7 +22,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
 
 function tanks() {
-alert("Eu também te amo e aceito casar com vc! :)")
+alert("Eu também te amo e aceito namorar com vc! :)")
 }  
 
 function not() {
