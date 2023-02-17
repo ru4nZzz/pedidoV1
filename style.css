@@ -58,7 +58,7 @@ text-transform: uppercase;
 }
 
 .container video {
-  position: relative;
+  position: absolute;
   top: -10;
   right: -10;
 }
