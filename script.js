@@ -22,7 +22,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
 
 function tanks() {
-alert("VOCE GOSTA DE CHUPAR CACETE")
+alert("Eu também te amo e aceito casar com vc! :)")
 }  
 
 function not() {
