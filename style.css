@@ -54,11 +54,11 @@ padding: 5px;
 text-transform: uppercase;
 }
 .container {
-  position: absolute;
+  position: relative;
 }
 
 .container video {
-  position: absolute;
+  position: relative;
   top: -10;
   right: -10;
 }
