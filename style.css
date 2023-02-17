@@ -59,8 +59,8 @@ text-transform: uppercase;
 
 .container video {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 66;
+  right: 22;
 }
 
 h1 {
