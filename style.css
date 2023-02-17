@@ -54,7 +54,7 @@ padding: 5px;
 text-transform: uppercase;
 }
 
-.Reproduzir música {
+.play-button {
   background-color: blue;
   color: white;
   padding: 10px 20px;
@@ -63,7 +63,7 @@ text-transform: uppercase;
   cursor: pointer;
 }
 
-.Reproduzir música:active {
+.play-button:active {
   animation: clicado 0.2s ease;
 }
 
