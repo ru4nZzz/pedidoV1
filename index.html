@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Namora comigo?</title>
+  <title>Botão de reprodução de música</title>
  </head>
  <header>
   <div class="cabeçalho">
@@ -18,6 +19,22 @@
   <button class="yes" onclick="tanks()">Sim :)</button>
   <button class="no" onclick="not()">Não :(</button>
   </div>
+   <button id="play-button">Reproduzir música</button>
+  <audio id="music" src="caminho/para/sua/musica.mp3"></audio>
+  <script>
+    const playButton = document.getElementById("play-button");
+    const music = document.getElementById("music");
+
+    playButton.addEventListener("click", function() {
+      if (music.paused) {
+        music.play();
+        playButton.innerHTML = "Pausar música";
+      } else {
+        music.pause();
+        playButton.innerHTML = "Reproduzir música";
+      }
+    });
+  </script>
 </body>
 <script src="script.js"></script>
 </html>
