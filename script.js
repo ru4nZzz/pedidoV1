@@ -22,7 +22,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   }
 
 function tanks() {
-alert("Eu também te amo e aceito namorar com vc! :) Meu amor você é um raio de sol que ilumina a minnha vida e faz tudo ficar mais colorido e especial.")
+alert("Eu também te amo e aceito namorar com vc, meu amor você é um raio de sol que ilumina a minnha vida e faz tudo ficar mais colorido e especial.")
 }  
 
 function not() {
